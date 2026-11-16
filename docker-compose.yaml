@@ -1,0 +1,6 @@
+include:
+  - path: ./docker-compose.common.yaml
+
+  - path: ./services/identity-access-service/docker-compose.yaml
+
+  # Add the remaining 18 services here.

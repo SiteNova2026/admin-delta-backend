@@ -1,0 +1,4 @@
+networks:
+  admin-delta-network:
+    name: admin-delta-network
+    driver: bridge

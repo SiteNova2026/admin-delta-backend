@@ -1,0 +1,27 @@
+# Git
+.git
+**/.git
+
+# Java / Maven
+**/target
+**/build
+
+# IDE
+.idea
+**/.idea
+.vscode
+**/.vscode
+*.iml
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+**/*.log
+
+# OS
+.DS_Store
+Thumbs.db
