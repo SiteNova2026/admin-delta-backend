@@ -1,0 +1,96 @@
+
+# ==========================================
+# ENVIRONMENT & SECRETS
+# ==========================================
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local application secrets
+application-local.yml
+application-local.yaml
+application-local.properties
+application-secret.yml
+application-secret.yaml
+application-secret.properties
+
+# ==========================================
+# JAVA / MAVEN
+# ==========================================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+.mvn/timing.properties
+
+# Keep Maven Wrapper files tracked:
+# mvnw
+# mvnw.cmd
+# .mvn/wrapper/
+
+# ==========================================
+# GRADLE (if any service uses Gradle)
+# ==========================================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ==========================================
+# IDE
+# ==========================================
+.idea/
+*.iml
+*.ipr
+*.iws
+
+.vscode/
+*.code-workspace
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+
+# ==========================================
+# LOGS
+# ==========================================
+logs/
+*.log
+*.log.*
+spring.log
+
+# ==========================================
+# OPERATING SYSTEM
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# TEST / COVERAGE
+# ==========================================
+coverage/
+jacoco.exec
+jacoco-report/
+surefire-reports/
+failsafe-reports/
+
+# ==========================================
+# TEMPORARY FILES
+# ==========================================
+tmp/
+temp/
+*.tmp
+*.swp
+*.bak
+*.orig
+
+# ==========================================
+# DOCKER LOCAL DATA
+# ==========================================
+data/
+docker-data/
