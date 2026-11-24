@@ -1,4 +1,4 @@
-package main.java.com.admindelta.identity.customer.enums;
+package com.admindelta.identity.customer.enums;
 
 public enum OtpPurpose {
 LOGIN,
